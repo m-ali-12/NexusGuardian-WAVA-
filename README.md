@@ -2,9 +2,10 @@
 
 ## Next-Generation Offensive Security & Vulnerability Assessment Platform
 
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/yourusername/nexusguardian)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/m-ali-12/NexusGuardian-WAVA-)
 [![Python](https://img.shields.io/badge/Python-3.7+-green.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub](https://img.shields.io/github/stars/m-ali-12/NexusGuardian-WAVA-?style=social)](https://github.com/m-ali-12/NexusGuardian-WAVA-)
 
 NexusGuardian is a state-of-the-art offensive security platform that integrates cutting-edge vulnerability assessment capabilities with advanced red teaming tools. Built for modern security challenges, it enables security professionals, penetration testers, and ethical hackers to identify, exploit, and remediate security vulnerabilities across web applications, APIs, cloud environments, containers, and more.
 
@@ -306,10 +307,10 @@ NexusGuardian is a state-of-the-art offensive security platform that integrates 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/nexusguardian.git
+git clone https://github.com/m-ali-12/NexusGuardian-WAVA-.git
 
 # Navigate to the project directory
-cd nexusguardian
+cd NexusGuardian-WAVA-
 
 # Create a virtual environment (recommended)
 python -m venv venv
@@ -328,10 +329,10 @@ pip install -r requirements.txt
 
 ```bash
 # Build the Docker image
-docker build -t nexusguardian .
+docker build -t nexusguardian-wava .
 
 # Run the container
-docker run -it --network host nexusguardian
+docker run -it --network host nexusguardian-wava
 ```
 
 ### Advanced Installation Options
@@ -388,7 +389,7 @@ python main.py --debug
 
 ```python
 # Python API example
-from nexusguardian import NexusGuardian
+from nexusguardian_wava import NexusGuardian
 
 # Initialize the client
 ng = NexusGuardian(api_key="your_api_key")
@@ -431,7 +432,7 @@ print(f"Found {len(results.vulnerabilities)} vulnerabilities")
 ### 💬 Community & Support
 
 - **[Discord Community](https://discord.gg/nexusguardian)**: Join our active community for discussions and support
-- **[GitHub Discussions](https://github.com/yourusername/nexusguardian/discussions)**: Ask questions and share ideas
+- **[GitHub Discussions](https://github.com/m-ali-12/NexusGuardian-WAVA-/discussions)**: Ask questions and share ideas
 - **[Stack Overflow](https://stackoverflow.com/questions/tagged/nexusguardian)**: Technical Q&A
 - **[Twitter](https://twitter.com/nexusguardian)**: Follow for updates and security news
 - **[YouTube Channel](https://youtube.com/c/nexusguardian)**: Video tutorials and demonstrations
@@ -540,7 +541,7 @@ We take the security of NexusGuardian seriously. If you believe you've found a s
 
 ### Reporting a Vulnerability
 
-Please report security vulnerabilities by emailing [security@nexusguardian.io](mailto:security@nexusguardian.io). Please include:
+Please report security vulnerabilities by emailing [m.ali.12@nexusguardian.io](mailto:m.ali.12@nexusguardian.io). Please include:
 
 - Description of the vulnerability
 - Steps to reproduce
@@ -568,7 +569,7 @@ NexusGuardian is released under the MIT License.
 ```
 MIT License
 
-Copyright (c) 2023 Syed Muhammad Ali Gillani
+Copyright (c) 2023-2024 Syed Muhammad Ali Gillani (m-ali-12)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -651,9 +652,9 @@ Thank you to all our sponsors and supporters who make this project possible.
 
 <p align="center">
   <a href="https://twitter.com/nexusguardian"><img src="https://img.shields.io/twitter/follow/nexusguardian?style=social" alt="Twitter Follow"></a>
-  <a href="https://github.com/yourusername/nexusguardian/stargazers"><img src="https://img.shields.io/github/stars/yourusername/nexusguardian?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/m-ali-12/NexusGuardian-WAVA-/stargazers"><img src="https://img.shields.io/github/stars/m-ali-12/NexusGuardian-WAVA-?style=social" alt="GitHub stars"></a>
 </p>
 
 <p align="center">
-Made with ❤️ by <a href="https://github.com/yourusername">Syed Muhammad Ali Gillani</a>
+Made with ❤️ by <a href="https://github.com/m-ali-12">Syed Muhammad Ali Gillani</a>
 </p>
